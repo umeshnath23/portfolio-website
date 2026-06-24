@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umesh Nath | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#60a5fa;
+}
+
+.about{
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:12px 20px;
+    border-radius:8px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Umesh Nath</h1>
+    <p>BCA Student | Aspiring Full Stack Developer</p>
+    <a href="#projects" class="btn">View Projects</a>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+        <p>
+            I am a BCA student at Sigma University, Vadodara.
+            Passionate about Web Development and currently learning
+            HTML, CSS, JavaScript, React, PHP and MySQL.
+            I am actively looking for internship opportunities
+            to improve my skills and gain industry experience.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">PHP</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website built using HTML and CSS.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator App</h3>
+            <p>Simple calculator using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do App</h3>
+            <p>Task management application with JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>PHP and MySQL based CRUD project.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+
+    <p>Email: your-email@gmail.com</p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/umeshnath23" target="_blank">
+            github.com/umeshnath23
+        </a>
+    </p>
+
+    <p>
+        LinkedIn:
+        <a href="https://linkedin.com" target="_blank">
+            LinkedIn Profile
+        </a>
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 Umesh Nath. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
